@@ -4,6 +4,8 @@ This project demonstrates an interactive workflow where a Python agent finds and
 
 It showcases a modern development pattern where a local script handles data gathering, and an AI assistant, equipped with powerful tools, performs the final actions based on your commands.
 
+Read the [blogpost](https://dev.to/jenlooper/using-cloudinarys-new-mcp-server-to-scrape-mozarella-camembert-and-parmesan-1m4b) explaining how I built it.
+
 ## ✨ **Features:**
 
 - **Automated Scraping**: A Python script uses Selenium and the built-in Selenium Manager to find and download high-quality, commercially-licensed cheese photos from Google Images.
