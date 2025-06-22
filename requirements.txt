@@ -1,0 +1,10 @@
+# Main application dependencies
+python-dotenv
+requests
+selenium
+Pillow
+schedule
+
+# Removed:
+# webdriver-manager - Replaced by Selenium's built-in manager
+# cloudinary - No longer used for direct upload from Python 

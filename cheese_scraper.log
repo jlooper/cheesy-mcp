@@ -1,0 +1,1549 @@
+2025-06-21 17:10:20,310 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 17:10:20,310 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 17:10:20,310 - INFO - ✅ MCP server configuration written to /Users/jenlooper/Documents/projects/cheesy-mcp/.cursor/mcp.json
+2025-06-21 17:10:20,310 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 17:10:20,310 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 17:10:20,310 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 17:10:20,310 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 17:10:20,310 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:10:20,310 - INFO - ====== WebDriver manager ======
+2025-06-21 17:10:20,542 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:20,639 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:20,728 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-21 17:10:20,731 - ERROR - Error scraping https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 90, in scrape_image_data
+    driver = webdriver.Chrome(service=service, options=self.chrome_options)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-21 17:10:20,737 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 17:10:20,737 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:10:20,737 - INFO - ====== WebDriver manager ======
+2025-06-21 17:10:20,954 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:21,040 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:21,139 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-21 17:10:21,141 - ERROR - Error scraping https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 90, in scrape_image_data
+    driver = webdriver.Chrome(service=service, options=self.chrome_options)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-21 17:10:21,141 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 17:10:21,141 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:10:21,142 - INFO - ====== WebDriver manager ======
+2025-06-21 17:10:21,267 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:21,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:21,478 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-21 17:10:21,481 - ERROR - Error scraping https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 90, in scrape_image_data
+    driver = webdriver.Chrome(service=service, options=self.chrome_options)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-21 17:10:21,481 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 17:10:21,481 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:10:21,481 - INFO - ====== WebDriver manager ======
+2025-06-21 17:10:21,656 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:21,770 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:21,877 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-21 17:10:21,884 - ERROR - Error scraping https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 90, in scrape_image_data
+    driver = webdriver.Chrome(service=service, options=self.chrome_options)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-21 17:10:21,885 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 17:10:21,885 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:10:21,886 - INFO - ====== WebDriver manager ======
+2025-06-21 17:10:22,113 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:22,230 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:22,313 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-21 17:10:22,316 - ERROR - Error scraping https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 90, in scrape_image_data
+    driver = webdriver.Chrome(service=service, options=self.chrome_options)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-21 17:10:22,316 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 17:10:22,317 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:10:22,317 - INFO - ====== WebDriver manager ======
+2025-06-21 17:10:22,550 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:22,640 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 17:10:22,738 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-21 17:10:22,741 - ERROR - Error scraping https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 90, in scrape_image_data
+    driver = webdriver.Chrome(service=service, options=self.chrome_options)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self._start_process(self._path)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/common/service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-21 17:10:22,741 - INFO - Scraping session completed! Found 0 total candidates.
+2025-06-21 17:10:22,741 - INFO - No new candidates found in this run.
+2025-06-21 17:11:49,262 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 17:11:49,262 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 17:11:49,262 - INFO - ✅ MCP server configuration written to /Users/jenlooper/Documents/projects/cheesy-mcp/.cursor/mcp.json
+2025-06-21 17:11:49,262 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 17:11:49,262 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 17:11:49,262 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 17:11:49,262 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 17:11:49,262 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:12:02,276 - ERROR - Error scraping https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c31d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102c29f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010277a6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001027c19e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001028030c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001027b5be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102bf5598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000102bf8830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102bd5c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000102bf90b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000102bc6dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000102c19420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000102c195ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000102c29bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 95, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.ID, "islmp")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c31d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102c29f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010277a6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001027c19e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001028030c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001027b5be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102bf5598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000102bf8830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102bd5c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000102bf90b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000102bc6dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000102c19420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000102c195ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000102c29bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:12:02,368 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 17:12:02,368 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:12:14,779 - ERROR - Error scraping https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d69d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100d61f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001008b26f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001008f99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010093b0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001008edbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000100d2d598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100d30830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000100d0dc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000100d310b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000100cfedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100d51420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000100d515ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100d61bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 95, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.ID, "islmp")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d69d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100d61f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001008b26f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001008f99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010093b0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001008edbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000100d2d598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100d30830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000100d0dc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000100d310b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000100cfedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100d51420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000100d515ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100d61bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:12:14,868 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 17:12:14,868 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:12:27,326 - ERROR - Error scraping https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100b7dd14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100b75f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001006c66f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x000000010070d9e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010074f0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000100701be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000100b41598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100b44830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000100b21c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000100b450b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000100b12dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100b65420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000100b655ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100b75bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 95, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.ID, "islmp")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100b7dd14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100b75f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001006c66f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x000000010070d9e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010074f0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000100701be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000100b41598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100b44830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000100b21c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000100b450b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000100b12dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100b65420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000100b655ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100b75bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:12:27,420 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 17:12:27,420 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:12:40,066 - ERROR - Error scraping https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105235d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010522df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000104d7e6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x0000000104dc59e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x0000000104e070c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000104db9be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001051f9598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001051fc830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001051d9c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001051fd0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001051cadec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x000000010521d420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x000000010521d5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x000000010522dbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 95, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.ID, "islmp")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105235d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010522df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000104d7e6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x0000000104dc59e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x0000000104e070c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000104db9be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001051f9598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001051fc830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001051d9c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001051fd0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001051cadec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x000000010521d420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x000000010521d5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x000000010522dbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:12:40,152 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 17:12:40,152 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:12:52,715 - ERROR - Error scraping https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100619d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100611f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001001626f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001001a99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001001eb0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010019dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001005dd598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001005e0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001005bdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001005e10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001005aedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100601420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001006015ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100611bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 95, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.ID, "islmp")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100619d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100611f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001001626f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001001a99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001001eb0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010019dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001005dd598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001005e0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001005bdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001005e10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001005aedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100601420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001006015ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100611bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:12:52,802 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 17:12:52,802 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:13:05,388 - ERROR - Error scraping https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d19d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102d11f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001028626f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001028a99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001028eb0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010289dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102cdd598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000102ce0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102cbdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000102ce10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000102caedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000102d01420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000102d015ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000102d11bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 95, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.ID, "islmp")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d19d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102d11f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001028626f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001028a99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001028eb0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010289dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102cdd598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000102ce0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102cbdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000102ce10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000102caedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000102d01420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000102d015ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000102d11bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:13:05,480 - INFO - Scraping session completed! Found 0 total candidates.
+2025-06-21 17:13:05,480 - INFO - No new candidates found in this run.
+2025-06-21 17:14:15,916 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 17:14:15,916 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 17:14:15,916 - INFO - ✅ MCP server configuration written to /Users/jenlooper/Documents/projects/cheesy-mcp/.cursor/mcp.json
+2025-06-21 17:14:15,916 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 17:14:15,916 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 17:14:15,916 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 17:14:15,916 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 17:14:15,916 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:14:29,374 - ERROR - Error scraping https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001026d5d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001026cdf88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010221e6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001022659e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001022a70c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000102259be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102699598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x000000010269c830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102679c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x000000010269d0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010266adec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001026bd420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001026bd5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001026cdbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 96, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.isv-r")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001026d5d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001026cdf88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010221e6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001022659e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001022a70c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000102259be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102699598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x000000010269c830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102679c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x000000010269d0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010266adec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001026bd420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001026bd5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001026cdbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:14:29,470 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 17:14:29,470 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:14:41,995 - ERROR - Error scraping https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001009d9d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001009d1f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001005226f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001005699e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001005ab0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010055dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x000000010099d598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001009a0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x000000010097dc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001009a10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010096edec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001009c1420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001009c15ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001009d1bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 96, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.isv-r")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001009d9d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001009d1f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001005226f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001005699e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001005ab0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010055dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x000000010099d598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001009a0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x000000010097dc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001009a10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010096edec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001009c1420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001009c15ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001009d1bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:14:42,082 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 17:14:42,082 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:14:54,744 - ERROR - Error scraping https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100759d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100751f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001002a26f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001002e99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010032b0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001002ddbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x000000010071d598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100720830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001006fdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001007210b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001006eedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100741420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001007415ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100751bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 96, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.isv-r")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100759d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100751f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001002a26f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001002e99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010032b0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001002ddbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x000000010071d598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100720830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001006fdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001007210b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001006eedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100741420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001007415ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100751bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:14:54,837 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 17:14:54,837 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:15:08,001 - ERROR - Error scraping https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104719d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000104711f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001042626f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001042a99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001042eb0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010429dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001046dd598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001046e0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001046bdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001046e10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001046aedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000104701420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001047015ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000104711bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 96, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.isv-r")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104719d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000104711f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001042626f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001042a99e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001042eb0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x000000010429dbe8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001046dd598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001046e0830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001046bdc14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001046e10b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001046aedec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000104701420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001047015ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000104711bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:15:08,092 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 17:15:08,093 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:15:20,578 - ERROR - Error scraping https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102705d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001026fdf88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010224e6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001022959e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001022d70c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000102289be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001026c9598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001026cc830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001026a9c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001026cd0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010269adec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001026ed420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001026ed5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001026fdbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 96, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.isv-r")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102705d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001026fdf88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010224e6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001022959e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001022d70c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000102289be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001026c9598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001026cc830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001026a9c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001026cd0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010269adec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001026ed420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001026ed5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001026fdbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:15:20,664 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 17:15:20,665 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:15:33,366 - ERROR - Error scraping https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104761d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000104759f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001042aa6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001042f19e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001043330c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001042e5be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000104725598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000104728830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000104705c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001047290b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001046f6dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000104749420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001047495ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000104759bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper_for_mcp.py", line 96, in scrape_image_data
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.isv-r")))
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104761d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000104759f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001042aa6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001042f19e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001043330c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001042e5be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000104725598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000104728830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000104705c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001047290b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x00000001046f6dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000104749420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001047495ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000104759bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 17:15:33,459 - INFO - Scraping session completed! Found 0 total candidates.
+2025-06-21 17:15:33,459 - INFO - No new candidates found in this run.
+2025-06-21 17:16:53,513 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 17:16:53,513 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 17:16:53,514 - INFO - ✅ MCP server configuration written to /Users/jenlooper/Documents/projects/cheesy-mcp/.cursor/mcp.json
+2025-06-21 17:16:53,514 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 17:16:53,514 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 17:16:53,514 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 17:16:53,514 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 17:16:53,514 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:17:03,750 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 17:17:03,836 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 17:17:03,836 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 17:17:03,836 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 17:17:03,836 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:17:11,793 - INFO - Successfully extracted 40 Base64 image sources.
+2025-06-21 17:17:11,870 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 17:17:11,870 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 17:17:11,870 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 17:17:11,871 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:17:20,797 - INFO - Successfully extracted 71 Base64 image sources.
+2025-06-21 17:17:20,885 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 17:17:20,885 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 17:17:20,885 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 17:17:20,885 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:17:29,343 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 17:17:29,420 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 17:17:29,421 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 17:17:29,421 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 17:17:29,421 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:17:37,815 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 17:17:37,889 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 17:17:37,890 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 17:17:37,890 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 17:17:37,890 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:17:47,063 - INFO - Successfully extracted 76 Base64 image sources.
+2025-06-21 17:17:47,188 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 17:17:47,188 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 17:17:47,188 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 17:17:47,188 - INFO - Found 1 new candidate images.
+2025-06-21 17:17:47,188 - INFO - ✅ Added 1 new candidates to the upload queue.
+2025-06-21 17:17:47,188 - INFO - 🎯 Daily mission complete!
+2025-06-21 17:17:47,188 - INFO - 
+==================================================
+2025-06-21 17:17:47,188 - INFO - 📣 The agent has found new images!
+2025-06-21 17:17:47,188 - INFO -    There are now 1 images pending upload.
+2025-06-21 17:17:47,188 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 17:17:47,188 - INFO - ==================================================
+
+2025-06-21 17:57:25,577 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 17:57:25,578 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 17:57:25,578 - INFO - ✅ MCP server configuration written to /Users/jenlooper/Documents/projects/cheesy-mcp/.cursor/mcp.json
+2025-06-21 17:57:25,578 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 17:57:25,579 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 17:57:25,579 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 17:57:25,579 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 17:57:25,579 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:57:35,152 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 17:57:35,232 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 17:57:35,232 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 17:57:35,232 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 17:57:35,232 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:57:43,571 - INFO - Successfully extracted 41 Base64 image sources.
+2025-06-21 17:57:43,648 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 17:57:43,649 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 17:57:43,649 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 17:57:43,649 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:57:52,878 - INFO - Successfully extracted 71 Base64 image sources.
+2025-06-21 17:57:52,966 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 17:57:52,966 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 17:57:52,966 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 17:57:52,966 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:58:01,718 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 17:58:01,797 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 17:58:01,798 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 17:58:01,798 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 17:58:01,798 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:58:10,594 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 17:58:10,672 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 17:58:10,673 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 17:58:10,673 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 17:58:10,673 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 17:58:19,863 - INFO - Successfully extracted 76 Base64 image sources.
+2025-06-21 17:58:19,951 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 17:58:19,951 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 17:58:19,952 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 17:58:19,952 - INFO - Found 1 new candidate images.
+2025-06-21 17:58:19,952 - INFO - ✅ Added 1 new candidates to the upload queue.
+2025-06-21 17:58:19,952 - INFO - 🎯 Daily mission complete!
+2025-06-21 17:58:19,952 - INFO - 
+==================================================
+2025-06-21 17:58:19,952 - INFO - 📣 The agent has found new images!
+2025-06-21 17:58:19,952 - INFO -    There are now 1 images pending upload.
+2025-06-21 17:58:19,952 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 17:58:19,952 - INFO - ==================================================
+
+2025-06-21 18:37:05,535 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 18:37:05,536 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 18:37:05,536 - INFO - ✅ MCP server configuration written to /Users/jenlooper/Documents/projects/cheesy-mcp/.cursor/mcp.json
+2025-06-21 18:37:05,536 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 18:37:05,536 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 18:37:05,536 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 18:37:05,536 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 18:37:05,536 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 18:37:15,697 - INFO - Successfully extracted 84 Base64 image sources.
+2025-06-21 18:37:15,781 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 18:37:15,781 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 18:37:15,781 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 18:37:15,781 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 18:37:24,034 - INFO - Successfully extracted 40 Base64 image sources.
+2025-06-21 18:37:24,109 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 18:37:24,109 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 18:37:24,109 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 18:37:24,109 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 18:37:33,306 - INFO - Successfully extracted 71 Base64 image sources.
+2025-06-21 18:37:33,394 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 18:37:33,395 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 18:37:33,395 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 18:37:33,395 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 18:37:42,432 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 18:37:42,510 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 18:37:42,510 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 18:37:42,510 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 18:37:42,510 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 18:37:51,181 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 18:37:51,259 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 18:37:51,259 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 18:37:51,259 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 18:37:51,259 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 18:38:00,599 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 18:38:00,681 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 18:38:00,681 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 18:38:00,681 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 18:38:00,681 - INFO - Found 1 new candidate images.
+2025-06-21 18:38:00,681 - INFO - ✅ Added 1 new candidates to the upload queue.
+2025-06-21 18:38:00,681 - INFO - 🎯 Daily mission complete!
+2025-06-21 18:38:00,681 - INFO - 
+==================================================
+2025-06-21 18:38:00,681 - INFO - 📣 The agent has found new images!
+2025-06-21 18:38:00,681 - INFO -    There are now 1 images pending upload.
+2025-06-21 18:38:00,681 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 18:38:00,681 - INFO - ==================================================
+
+2025-06-21 19:51:37,282 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 19:51:37,282 - INFO - ⚙️  Setting up MCP server configuration...
+2025-06-21 19:51:37,282 - ERROR - ❌ Failed to initialize: CLOUDINARY_URL not found in environment. Cannot configure MCP server.
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_agent.py", line 49, in __init__
+    self.setup_mcp_server_config()
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_agent.py", line 61, in setup_mcp_server_config
+    raise ValueError("CLOUDINARY_URL not found in environment. Cannot configure MCP server.")
+ValueError: CLOUDINARY_URL not found in environment. Cannot configure MCP server.
+2025-06-21 19:51:37,282 - ERROR - ❌ Scraper not available. Aborting run.
+2025-06-21 20:22:08,148 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:22:08,148 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:22:08,148 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:22:08,148 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:22:08,148 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:22:08,148 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:22:18,495 - INFO - Successfully extracted 82 Base64 image sources.
+2025-06-21 20:22:18,580 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 20:22:18,580 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 20:22:18,580 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:22:18,580 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:22:27,109 - INFO - Successfully extracted 41 Base64 image sources.
+2025-06-21 20:22:27,184 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 20:22:27,184 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 20:22:27,184 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:22:27,184 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:22:36,585 - INFO - Successfully extracted 72 Base64 image sources.
+2025-06-21 20:22:36,674 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 20:22:36,674 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 20:22:36,675 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:22:36,675 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:22:45,945 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 20:22:46,022 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 20:22:46,023 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 20:22:46,023 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:22:46,023 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:22:55,070 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 20:22:55,149 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 20:22:55,149 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 20:22:55,149 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:22:55,149 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:23:04,773 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 20:23:04,861 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 20:23:04,862 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 20:23:04,862 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 20:23:04,862 - INFO - Found 1 new candidate images.
+2025-06-21 20:23:04,862 - INFO - ✅ Added 1 new candidates to the upload queue.
+2025-06-21 20:23:04,862 - INFO - 🎯 Daily mission complete!
+2025-06-21 20:23:04,862 - INFO - 
+==================================================
+2025-06-21 20:23:04,862 - INFO - 📣 The agent has found new images!
+2025-06-21 20:23:04,862 - INFO -    There are now 1 images pending upload.
+2025-06-21 20:23:04,862 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 20:23:04,862 - INFO - ==================================================
+
+2025-06-21 20:23:50,069 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:23:50,069 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:23:50,069 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:23:50,069 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:23:50,069 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:23:50,069 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:23:58,879 - INFO - Successfully extracted 82 Base64 image sources.
+2025-06-21 20:23:58,957 - INFO - ✅ Found candidate: semi_soft_4b7d5d3bd8.jpg for type semi soft
+2025-06-21 20:23:58,957 - INFO - ✅ Found candidate: semi_soft_54a36c146d.jpg for type semi soft
+2025-06-21 20:23:58,957 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:23:58,957 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:24:07,071 - INFO - Successfully extracted 41 Base64 image sources.
+2025-06-21 20:24:07,148 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 20:24:07,148 - INFO - ✅ Found candidate: bloomy_60e6fc8d62.jpg for type bloomy
+2025-06-21 20:24:07,148 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:24:07,148 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:24:16,523 - INFO - Successfully extracted 72 Base64 image sources.
+2025-06-21 20:24:16,611 - INFO - ✅ Found candidate: blue_7a78c4c560.jpg for type blue
+2025-06-21 20:24:16,611 - INFO - ✅ Found candidate: blue_347683487d.jpg for type blue
+2025-06-21 20:24:16,612 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:24:16,612 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:24:25,448 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 20:24:25,524 - INFO - ✅ Found candidate: hard_f578215960.jpg for type hard
+2025-06-21 20:24:25,524 - INFO - ✅ Found candidate: hard_52470f175f.jpg for type hard
+2025-06-21 20:24:25,524 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:24:25,524 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:24:34,478 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 20:24:34,556 - INFO - ✅ Found candidate: washed_rind_33023d20f2.jpg for type washed rind
+2025-06-21 20:24:34,556 - INFO - ✅ Found candidate: washed_rind_fd1355e7dd.jpg for type washed rind
+2025-06-21 20:24:34,556 - INFO - 🎯 Reached maximum total image target.
+2025-06-21 20:24:34,556 - INFO - Scraping session completed! Found 10 total candidates.
+2025-06-21 20:24:34,556 - INFO - Found 10 new candidate images.
+2025-06-21 20:24:34,557 - INFO - ✅ Added 9 new candidates to the upload queue.
+2025-06-21 20:24:34,557 - INFO - 🎯 Daily mission complete!
+2025-06-21 20:24:34,557 - INFO - 
+==================================================
+2025-06-21 20:24:34,557 - INFO - 📣 The agent has found new images!
+2025-06-21 20:24:34,557 - INFO -    There are now 10 images pending upload.
+2025-06-21 20:24:34,557 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 20:24:34,557 - INFO - ==================================================
+
+2025-06-21 20:27:10,112 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:27:10,112 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:27:10,112 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:27:10,112 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:27:10,112 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:27:10,112 - INFO - Scraping image URLs from: q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:27:11,620 - ERROR - Error scraping q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000104e45d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000104e3df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010498e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000104978ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x00000001049770ec chromedriver + 192748
+5   chromedriver                        0x0000000104977b70 chromedriver + 195440
+6   chromedriver                        0x0000000104991754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000104a17b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000104a170c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x00000001049c9be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000104e09598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x0000000104e0c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000104de9c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x0000000104e0d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x0000000104ddadec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x0000000104e2d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x0000000104e2d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x0000000104e3dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper.py", line 85, in scrape_image_urls
+    driver.get(search_url)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000104e45d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000104e3df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010498e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000104978ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x00000001049770ec chromedriver + 192748
+5   chromedriver                        0x0000000104977b70 chromedriver + 195440
+6   chromedriver                        0x0000000104991754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000104a17b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000104a170c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x00000001049c9be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000104e09598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x0000000104e0c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000104de9c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x0000000104e0d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x0000000104ddadec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x0000000104e2d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x0000000104e2d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x0000000104e3dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 20:27:11,691 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:27:11,691 - INFO - Scraping image URLs from: q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:27:12,609 - ERROR - Error scraping q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000102b35d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102b2df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010267e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000102668ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x00000001026670ec chromedriver + 192748
+5   chromedriver                        0x0000000102667b70 chromedriver + 195440
+6   chromedriver                        0x0000000102681754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000102707b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x00000001027070c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x00000001026b9be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000102af9598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x0000000102afc830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000102ad9c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x0000000102afd0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x0000000102acadec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x0000000102b1d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x0000000102b1d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x0000000102b2dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper.py", line 85, in scrape_image_urls
+    driver.get(search_url)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000102b35d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102b2df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x000000010267e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000102668ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x00000001026670ec chromedriver + 192748
+5   chromedriver                        0x0000000102667b70 chromedriver + 195440
+6   chromedriver                        0x0000000102681754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000102707b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x00000001027070c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x00000001026b9be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000102af9598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x0000000102afc830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000102ad9c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x0000000102afd0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x0000000102acadec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x0000000102b1d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x0000000102b1d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x0000000102b2dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 20:27:12,678 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:27:12,678 - INFO - Scraping image URLs from: q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:27:13,641 - ERROR - Error scraping q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000101455d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010144df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000100f9e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000100f88ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100f870ec chromedriver + 192748
+5   chromedriver                        0x0000000100f87b70 chromedriver + 195440
+6   chromedriver                        0x0000000100fa1754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000101027b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x00000001010270c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000100fd9be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000101419598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x000000010141c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x00000001013f9c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x000000010141d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x00000001013eadec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x000000010143d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x000000010143d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x000000010144dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper.py", line 85, in scrape_image_urls
+    driver.get(search_url)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000101455d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010144df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000100f9e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000100f88ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100f870ec chromedriver + 192748
+5   chromedriver                        0x0000000100f87b70 chromedriver + 195440
+6   chromedriver                        0x0000000100fa1754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000101027b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x00000001010270c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000100fd9be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000101419598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x000000010141c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x00000001013f9c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x000000010141d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x00000001013eadec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x000000010143d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x000000010143d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x000000010144dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 20:27:13,709 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:27:13,710 - INFO - Scraping image URLs from: q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:27:14,665 - ERROR - Error scraping q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000105421d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000105419f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000104f6a564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000104f54ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104f530ec chromedriver + 192748
+5   chromedriver                        0x0000000104f53b70 chromedriver + 195440
+6   chromedriver                        0x0000000104f6d754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000104ff3b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000104ff30c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000104fa5be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x00000001053e5598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x00000001053e8830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x00000001053c5c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x00000001053e90b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x00000001053b6dec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x0000000105409420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x00000001054095ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x0000000105419bd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper.py", line 85, in scrape_image_urls
+    driver.get(search_url)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000105421d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000105419f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000104f6a564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000104f54ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000104f530ec chromedriver + 192748
+5   chromedriver                        0x0000000104f53b70 chromedriver + 195440
+6   chromedriver                        0x0000000104f6d754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000104ff3b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000104ff30c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000104fa5be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x00000001053e5598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x00000001053e8830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x00000001053c5c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x00000001053e90b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x00000001053b6dec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x0000000105409420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x00000001054095ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x0000000105419bd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 20:27:14,733 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:27:14,733 - INFO - Scraping image URLs from: q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:27:15,691 - ERROR - Error scraping q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000101385d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010137df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000100ece564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000100eb8ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100eb70ec chromedriver + 192748
+5   chromedriver                        0x0000000100eb7b70 chromedriver + 195440
+6   chromedriver                        0x0000000100ed1754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000100f57b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000100f570c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000100f09be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000101349598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x000000010134c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000101329c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x000000010134d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x000000010131adec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x000000010136d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x000000010136d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x000000010137dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper.py", line 85, in scrape_image_urls
+    driver.get(search_url)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x0000000101385d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010137df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000100ece564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000100eb8ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000100eb70ec chromedriver + 192748
+5   chromedriver                        0x0000000100eb7b70 chromedriver + 195440
+6   chromedriver                        0x0000000100ed1754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000100f57b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000100f570c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000100f09be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000101349598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x000000010134c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000101329c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x000000010134d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x000000010131adec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x000000010136d420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x000000010136d5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x000000010137dbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 20:27:15,759 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:27:15,759 - INFO - Scraping image URLs from: q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:27:16,703 - ERROR - Error scraping q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x00000001031c5d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001031bdf88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000102d0e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000102cf8ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000102cf70ec chromedriver + 192748
+5   chromedriver                        0x0000000102cf7b70 chromedriver + 195440
+6   chromedriver                        0x0000000102d11754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000102d97b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000102d970c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000102d49be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000103189598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x000000010318c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000103169c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x000000010318d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x000000010315adec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x00000001031ad420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x00000001031ad5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x00000001031bdbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+Traceback (most recent call last):
+  File "/Users/jenlooper/Documents/projects/cheesy-mcp/cheese_scraper.py", line 85, in scrape_image_urls
+    driver.get(search_url)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/jenlooper/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+0   chromedriver                        0x00000001031c5d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001031bdf88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000102d0e564 cxxbridge1$string$len + 90028
+3   chromedriver                        0x0000000102cf8ddc cxxbridge1$string$len + 2084
+4   chromedriver                        0x0000000102cf70ec chromedriver + 192748
+5   chromedriver                        0x0000000102cf7b70 chromedriver + 195440
+6   chromedriver                        0x0000000102d11754 cxxbridge1$string$len + 102812
+7   chromedriver                        0x0000000102d97b60 cxxbridge1$string$len + 652712
+8   chromedriver                        0x0000000102d970c8 cxxbridge1$string$len + 650000
+9   chromedriver                        0x0000000102d49be8 cxxbridge1$string$len + 333360
+10  chromedriver                        0x0000000103189598 cxxbridge1$str$ptr + 2487600
+11  chromedriver                        0x000000010318c830 cxxbridge1$str$ptr + 2500552
+12  chromedriver                        0x0000000103169c14 cxxbridge1$str$ptr + 2358188
+13  chromedriver                        0x000000010318d0b8 cxxbridge1$str$ptr + 2502736
+14  chromedriver                        0x000000010315adec cxxbridge1$str$ptr + 2297220
+15  chromedriver                        0x00000001031ad420 cxxbridge1$str$ptr + 2634680
+16  chromedriver                        0x00000001031ad5ac cxxbridge1$str$ptr + 2635076
+17  chromedriver                        0x00000001031bdbd4 cxxbridge1$str$ptr + 2702188
+18  libsystem_pthread.dylib             0x000000019a5cac0c _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019a5c5b80 thread_start + 8
+
+2025-06-21 20:27:16,771 - INFO - Scraping session completed! Found 0 total candidates.
+2025-06-21 20:27:16,772 - INFO - No new candidates found in this run.
+2025-06-21 20:27:59,125 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:27:59,125 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:27:59,125 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:27:59,125 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:27:59,125 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:27:59,125 - INFO - Scraping image URLs from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:28:03,746 - WARNING - Could not find any image thumbnail results.
+2025-06-21 20:28:03,827 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:28:03,828 - INFO - Scraping image URLs from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:28:07,918 - WARNING - Could not find any image thumbnail results.
+2025-06-21 20:28:08,004 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:28:08,004 - INFO - Scraping image URLs from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:28:12,350 - WARNING - Could not find any image thumbnail results.
+2025-06-21 20:28:12,484 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:28:12,484 - INFO - Scraping image URLs from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:28:16,870 - WARNING - Could not find any image thumbnail results.
+2025-06-21 20:28:16,958 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:28:16,958 - INFO - Scraping image URLs from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:28:21,190 - WARNING - Could not find any image thumbnail results.
+2025-06-21 20:28:21,274 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:28:21,274 - INFO - Scraping image URLs from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:28:25,363 - WARNING - Could not find any image thumbnail results.
+2025-06-21 20:28:25,456 - INFO - Scraping session completed! Found 0 total candidates.
+2025-06-21 20:28:25,456 - INFO - No new candidates found in this run.
+2025-06-21 20:30:04,072 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:30:04,072 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:30:04,072 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:30:04,072 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:30:04,072 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:30:04,072 - INFO - Scraping image URLs from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:31:42,343 - INFO - Successfully extracted 0 image URLs.
+2025-06-21 20:31:43,172 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:31:43,172 - INFO - Scraping image URLs from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:32:35,312 - INFO - Successfully extracted 0 image URLs.
+2025-06-21 20:32:35,650 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:32:35,650 - INFO - Scraping image URLs from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:38:02,391 - INFO - Successfully extracted 0 image URLs.
+2025-06-21 20:38:05,507 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:38:05,507 - INFO - Scraping image URLs from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:41:55,884 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/ccb979726e54bc8ba07b8224cff98d23
+2025-06-21 20:41:55,886 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1066ab1f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ccb979726e54bc8ba07b8224cff98d23
+2025-06-21 20:41:55,886 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1066ab340>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ccb979726e54bc8ba07b8224cff98d23
+2025-06-21 20:42:25,972 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:42:25,972 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:42:25,972 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:42:25,973 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:42:25,973 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:42:25,973 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:42:35,052 - INFO - Successfully extracted 80 Base64 image sources.
+2025-06-21 20:42:35,136 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 20:42:35,136 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 20:42:35,136 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:42:35,136 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:42:43,099 - INFO - Successfully extracted 40 Base64 image sources.
+2025-06-21 20:42:43,178 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 20:42:43,178 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 20:42:43,178 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:42:43,178 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:42:52,068 - INFO - Successfully extracted 73 Base64 image sources.
+2025-06-21 20:42:52,157 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 20:42:52,157 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 20:42:52,157 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:42:52,157 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:43:00,940 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 20:43:01,019 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 20:43:01,019 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 20:43:01,019 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:43:01,019 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:43:09,784 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 20:43:09,863 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 20:43:09,863 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 20:43:09,863 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:43:09,863 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:43:19,004 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 20:43:19,092 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 20:43:19,092 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 20:43:19,092 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 20:43:19,092 - INFO - Found 1 new candidate images.
+2025-06-21 20:43:19,093 - INFO - ✅ Added 0 new candidates to the upload queue.
+2025-06-21 20:43:19,093 - INFO - 🎯 Daily mission complete!
+2025-06-21 20:43:19,093 - INFO - 
+==================================================
+2025-06-21 20:43:19,093 - INFO - 📣 The agent has found new images!
+2025-06-21 20:43:19,093 - INFO -    There are now 10 images pending upload.
+2025-06-21 20:43:19,093 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 20:43:19,093 - INFO - ==================================================
+
+2025-06-21 20:46:37,630 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:46:37,630 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:46:37,630 - INFO - 🚀 Starting a forced ad-hoc scraping mission...
+2025-06-21 20:46:37,630 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:46:37,630 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:46:37,630 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:46:47,368 - INFO - Successfully extracted 83 Base64 image sources.
+2025-06-21 20:46:47,447 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 20:46:47,448 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 20:46:47,448 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:46:47,448 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:46:56,182 - INFO - Successfully extracted 41 Base64 image sources.
+2025-06-21 20:46:56,260 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 20:46:56,260 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 20:46:56,261 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:46:56,261 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:47:06,425 - INFO - Successfully extracted 72 Base64 image sources.
+2025-06-21 20:47:06,508 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 20:47:06,509 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 20:47:06,509 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:47:06,509 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:47:15,661 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 20:47:15,740 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 20:47:15,740 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 20:47:15,740 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:47:15,740 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:47:24,968 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 20:47:25,046 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 20:47:25,046 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 20:47:25,046 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:47:25,046 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:47:35,076 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 20:47:35,163 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 20:47:35,163 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 20:47:35,163 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 20:47:35,163 - INFO - Found 1 new candidate images.
+2025-06-21 20:47:35,164 - INFO - ✅ Added 0 new candidates to the upload queue.
+2025-06-21 20:47:35,164 - INFO - 🎯 Daily mission complete!
+2025-06-21 20:47:35,164 - INFO - 
+==================================================
+2025-06-21 20:47:35,164 - INFO - 📣 The agent has found new images!
+2025-06-21 20:47:35,164 - INFO -    There are now 10 images pending upload.
+2025-06-21 20:47:35,164 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 20:47:35,164 - INFO - ==================================================
+
+2025-06-21 20:49:26,553 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:49:26,554 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:49:26,554 - INFO - 🚀 Starting a scraping mission...
+2025-06-21 20:49:26,554 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:49:26,554 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:49:26,554 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:49:36,295 - INFO - Successfully extracted 84 Base64 image sources.
+2025-06-21 20:49:36,379 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 20:49:36,379 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 20:49:36,379 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:49:36,379 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:49:44,873 - INFO - Successfully extracted 40 Base64 image sources.
+2025-06-21 20:49:44,950 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 20:49:44,950 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 20:49:44,950 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:49:44,950 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:49:54,974 - INFO - Successfully extracted 72 Base64 image sources.
+2025-06-21 20:49:55,060 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 20:49:55,060 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 20:49:55,061 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:49:55,061 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:50:04,303 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 20:50:04,382 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 20:50:04,383 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 20:50:04,383 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:50:04,383 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:50:14,434 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 20:50:14,511 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 20:50:14,511 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 20:50:14,511 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:50:14,511 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:50:24,518 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 20:50:24,603 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 20:50:24,603 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 20:50:24,603 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 20:50:24,603 - INFO - Found 1 new candidate images.
+2025-06-21 20:50:24,603 - INFO - ✅ Added 0 new candidates to the upload queue.
+2025-06-21 20:50:24,603 - INFO - 🎯 Daily mission complete!
+2025-06-21 20:50:24,603 - INFO - 
+==================================================
+2025-06-21 20:50:24,603 - INFO - 📣 The agent has found new images!
+2025-06-21 20:50:24,603 - INFO -    There are now 10 images pending upload.
+2025-06-21 20:50:24,603 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 20:50:24,604 - INFO - ==================================================
+
+2025-06-21 20:52:04,749 - WARNING - Failed to load agent state: Expecting property name enclosed in double quotes: line 18 column 1 (char 327)
+2025-06-21 20:52:04,749 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 20:52:04,749 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 20:52:04,749 - INFO - 🚀 Starting a scraping mission...
+2025-06-21 20:52:04,749 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 20:52:04,749 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 20:52:04,749 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:52:14,843 - INFO - Successfully extracted 81 Base64 image sources.
+2025-06-21 20:52:14,928 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 20:52:14,928 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 20:52:14,928 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 20:52:14,928 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:52:23,250 - INFO - Successfully extracted 41 Base64 image sources.
+2025-06-21 20:52:23,327 - INFO - ✅ Found candidate: bloomy_4e7939fe1a.jpg for type bloomy
+2025-06-21 20:52:23,327 - WARNING - Skipping small image: bloomy_3c16992af4.jpg (16x16)
+2025-06-21 20:52:23,327 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 20:52:23,327 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:52:33,364 - INFO - Successfully extracted 72 Base64 image sources.
+2025-06-21 20:52:33,451 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 20:52:33,451 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 20:52:33,451 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 20:52:33,451 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:52:42,608 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 20:52:42,686 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 20:52:42,686 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 20:52:42,686 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 20:52:42,686 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:52:51,798 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 20:52:51,876 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 20:52:51,877 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 20:52:51,877 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 20:52:51,877 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 20:53:01,875 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 20:53:01,962 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 20:53:01,962 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 20:53:01,962 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 20:53:01,962 - INFO - Found 1 new candidate images.
+2025-06-21 20:53:01,963 - INFO - ✅ Added 1 new candidates to the upload queue.
+2025-06-21 20:53:01,963 - INFO - 🎯 Daily mission complete!
+2025-06-21 20:53:01,963 - INFO - 
+==================================================
+2025-06-21 20:53:01,963 - INFO - 📣 The agent has found new images!
+2025-06-21 20:53:01,963 - INFO -    There are now 1 images pending upload.
+2025-06-21 20:53:01,963 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 20:53:01,963 - INFO - ==================================================
+
+2025-06-21 21:00:23,543 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-21 21:00:23,543 - INFO - ✅ Scraper initialized successfully.
+2025-06-21 21:00:23,543 - INFO - 🚀 Starting scraping mission...
+2025-06-21 21:00:23,543 - INFO - 🚀 Starting cheese image candidate search. Target: 10 images.
+2025-06-21 21:00:23,543 - INFO - --- Starting search for 'semi soft' cheese ---
+2025-06-21 21:00:23,543 - INFO - Scraping image data from: https://www.google.com/search?q=semi+soft+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 21:00:33,172 - INFO - Successfully extracted 81 Base64 image sources.
+2025-06-21 21:00:33,257 - WARNING - Skipping small image: semi_soft_4b7d5d3bd8.jpg (61x46)
+2025-06-21 21:00:33,257 - WARNING - Skipping small image: semi_soft_54a36c146d.jpg (61x46)
+2025-06-21 21:00:33,257 - INFO - --- Starting search for 'bloomy' cheese ---
+2025-06-21 21:00:33,257 - INFO - Scraping image data from: https://www.google.com/search?q=bloomy+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 21:00:41,648 - INFO - Successfully extracted 41 Base64 image sources.
+2025-06-21 21:00:41,726 - INFO - ✅ Found candidate: bloomy_d27b839e49.jpg for type bloomy
+2025-06-21 21:00:41,726 - WARNING - Skipping small image: bloomy_60e6fc8d62.jpg (16x16)
+2025-06-21 21:00:41,726 - INFO - --- Starting search for 'blue' cheese ---
+2025-06-21 21:00:41,726 - INFO - Scraping image data from: https://www.google.com/search?q=blue+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 21:00:51,991 - INFO - Successfully extracted 72 Base64 image sources.
+2025-06-21 21:00:52,077 - WARNING - Skipping small image: blue_7a78c4c560.jpg (63x46)
+2025-06-21 21:00:52,078 - WARNING - Skipping small image: blue_347683487d.jpg (46x69)
+2025-06-21 21:00:52,078 - INFO - --- Starting search for 'hard' cheese ---
+2025-06-21 21:00:52,078 - INFO - Scraping image data from: https://www.google.com/search?q=hard+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 21:01:01,713 - INFO - Successfully extracted 74 Base64 image sources.
+2025-06-21 21:01:01,790 - WARNING - Skipping small image: hard_f578215960.jpg (46x57)
+2025-06-21 21:01:01,791 - WARNING - Skipping small image: hard_52470f175f.jpg (82x46)
+2025-06-21 21:01:01,791 - INFO - --- Starting search for 'washed rind' cheese ---
+2025-06-21 21:01:01,791 - INFO - Scraping image data from: https://www.google.com/search?q=washed+rind+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 21:01:11,401 - INFO - Successfully extracted 62 Base64 image sources.
+2025-06-21 21:01:11,477 - WARNING - Skipping small image: washed_rind_33023d20f2.jpg (61x46)
+2025-06-21 21:01:11,477 - WARNING - Skipping small image: washed_rind_fd1355e7dd.jpg (69x46)
+2025-06-21 21:01:11,477 - INFO - --- Starting search for 'fresh' cheese ---
+2025-06-21 21:01:11,477 - INFO - Scraping image data from: https://www.google.com/search?q=fresh+cheese&tbm=isch&as_st=y&imgtype=photo&tbs=sur%3Acl
+2025-06-21 21:01:21,988 - INFO - Successfully extracted 78 Base64 image sources.
+2025-06-21 21:01:22,074 - WARNING - Skipping small image: fresh_045ce550ea.jpg (46x46)
+2025-06-21 21:01:22,074 - WARNING - Skipping small image: fresh_5905021a30.jpg (46x46)
+2025-06-21 21:01:22,074 - INFO - Scraping session completed! Found 1 total candidates.
+2025-06-21 21:01:22,074 - INFO - Found 1 new candidate images.
+2025-06-21 21:01:22,075 - INFO - ✅ Added 1 new candidates to the upload queue.
+2025-06-21 21:01:22,075 - INFO - 🎯 Mission complete!
+2025-06-21 21:01:22,075 - INFO - 
+==================================================
+2025-06-21 21:01:22,075 - INFO - 📣 The agent has found new images!
+2025-06-21 21:01:22,075 - INFO -    There are now 1 images pending upload.
+2025-06-21 21:01:22,075 - INFO -    Ask your AI assistant to upload them for you.
+2025-06-21 21:01:22,075 - INFO - ==================================================
+

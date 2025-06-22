@@ -1,0 +1,201 @@
+2025-06-20 14:28:37,165 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-20 14:28:37,165 - INFO - 🚀 Starting daily cheese scraping mission
+2025-06-20 14:28:37,165 - INFO - ====== WebDriver manager ======
+2025-06-20 14:28:39,640 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:39,798 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:39,887 - INFO - There is no [mac64] chromedriver "137.0.7151.119" for browser google-chrome "137.0.7151" in cache
+2025-06-20 14:28:39,904 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:40,193 - INFO - WebDriver version 137.0.7151.119 selected
+2025-06-20 14:28:40,196 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-20 14:28:40,197 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/mac-arm64/chromedriver-mac-arm64.zip
+2025-06-20 14:28:40,370 - INFO - Driver downloading response is 200
+2025-06-20 14:28:40,671 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:40,811 - INFO - Driver has been saved in cache [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119]
+2025-06-20 14:28:40,816 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:28:45,822 - INFO - ====== WebDriver manager ======
+2025-06-20 14:28:46,074 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:46,171 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:46,266 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:28:46,271 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:28:51,277 - INFO - ====== WebDriver manager ======
+2025-06-20 14:28:51,521 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:51,621 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:51,712 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:28:51,717 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:28:54,242 - INFO - 🔍 Searching: farmhouse cheddar aged
+2025-06-20 14:29:01,714 - INFO - Found 0 images for 'farmhouse cheddar aged'
+2025-06-20 14:29:01,714 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:01,941 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:02,047 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:02,159 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:02,166 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:07,170 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:07,441 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:07,534 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:07,647 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:07,653 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:12,655 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:12,907 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:13,009 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:13,106 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:13,112 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:14,290 - INFO - 🔍 Searching: creamy ricotta fresh cheese
+2025-06-20 14:29:22,119 - INFO - Found 1 images for 'creamy ricotta fresh cheese'
+2025-06-20 14:29:24,522 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:24,838 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:24,936 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:25,040 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:25,047 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:30,053 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:30,344 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:30,438 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:30,540 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:30,546 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:35,547 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:35,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:35,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:35,999 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:36,003 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:37,080 - INFO - 🔍 Searching: stilton blue veined cheese
+2025-06-20 14:29:44,318 - INFO - Found 0 images for 'stilton blue veined cheese'
+2025-06-20 14:29:44,318 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:44,605 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:44,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:44,803 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:44,810 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:49,816 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:50,095 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:50,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:50,310 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:50,316 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:55,321 - INFO - ====== WebDriver manager ======
+2025-06-20 14:29:55,583 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:55,671 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:29:55,780 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 14:29:55,786 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 14:29:56,747 - INFO - 🔍 Searching: manchego semi hard sheep
+2025-06-20 14:30:04,488 - INFO - Found 1 images for 'manchego semi hard sheep'
+2025-06-20 14:30:04,626 - INFO - ✅ Processed: cheese_2025-06-20_001.jpg with tags ['hard', 'semi-soft']
+2025-06-20 14:30:06,631 - INFO - 📦 Created MCP batch upload: /Users/jenlooper/Documents/projects/cheesy-mcp/cheese_agent_output/mcp_upload_batch_2025-06-20.json
+2025-06-20 14:30:06,633 - INFO - 🎯 Daily mission complete!
+2025-06-20 14:30:06,633 - INFO -    Images processed: 1
+2025-06-20 14:30:06,633 - INFO -    Ready for MCP upload: 1
+2025-06-20 14:30:06,633 - INFO -    Total images to date: 7
+2025-06-20 14:30:06,634 - INFO - 🧹 Cleaning up 4 downloaded images...
+2025-06-20 14:30:06,636 - INFO - ✅ Image cleanup completed
+2025-06-20 17:36:31,624 - INFO - 🤖 Cheese Scraping Agent initialized
+2025-06-20 17:36:31,624 - INFO - Haven't reached daily target (1/10)
+2025-06-20 17:36:31,624 - INFO - 🚀 Starting daily cheese scraping mission
+2025-06-20 17:36:31,624 - INFO - ====== WebDriver manager ======
+2025-06-20 17:36:31,921 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:32,063 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:32,166 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:36:32,173 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:36:37,177 - INFO - ====== WebDriver manager ======
+2025-06-20 17:36:37,439 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:37,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:37,648 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:36:37,654 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:36:42,658 - INFO - ====== WebDriver manager ======
+2025-06-20 17:36:42,927 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:43,030 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:43,130 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:36:43,135 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:36:45,203 - INFO - 🔍 Searching: artisan blue cheese roquefort
+2025-06-20 17:36:52,564 - INFO - Found 2 images for 'artisan blue cheese roquefort'
+2025-06-20 17:36:52,724 - INFO - ✅ Processed: cheese_2025-06-20_001.jpg with tags ['blue']
+2025-06-20 17:36:54,874 - INFO - ✅ Processed: cheese_2025-06-20_002.jpg with tags ['blue']
+2025-06-20 17:36:56,877 - INFO - ====== WebDriver manager ======
+2025-06-20 17:36:57,194 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:57,300 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:36:57,396 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:36:57,400 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:02,406 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:02,661 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:02,762 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:02,854 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:02,856 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:07,862 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:08,054 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:08,150 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:08,259 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:08,264 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:09,377 - INFO - 🔍 Searching: fresh mozzarella burrata
+2025-06-20 17:37:16,992 - INFO - Found 2 images for 'fresh mozzarella burrata'
+2025-06-20 17:37:21,316 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:21,628 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:21,722 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:21,824 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:21,831 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:26,835 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:27,083 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:27,171 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:27,267 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:27,274 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:32,278 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:32,548 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:32,646 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:32,747 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:32,753 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:33,834 - INFO - 🔍 Searching: aged hard cheese parmesan
+2025-06-20 17:37:41,734 - INFO - Found 2 images for 'aged hard cheese parmesan'
+2025-06-20 17:37:46,025 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:46,319 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:46,430 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:46,534 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:46,541 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:51,547 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:51,807 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:51,903 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:52,016 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:52,022 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:57,026 - INFO - ====== WebDriver manager ======
+2025-06-20 17:37:57,252 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:57,342 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:37:57,441 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:37:57,446 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:37:58,619 - INFO - 🔍 Searching: bloomy rind brie camembert
+2025-06-20 17:38:06,639 - INFO - Found 2 images for 'bloomy rind brie camembert'
+2025-06-20 17:38:10,926 - INFO - ====== WebDriver manager ======
+2025-06-20 17:38:11,247 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:11,344 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:11,459 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:38:11,466 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:38:16,471 - INFO - ====== WebDriver manager ======
+2025-06-20 17:38:16,727 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:16,828 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:16,927 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:38:16,934 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:38:21,938 - INFO - ====== WebDriver manager ======
+2025-06-20 17:38:22,212 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:22,309 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:22,416 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:38:22,423 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:38:23,519 - INFO - 🔍 Searching: semi soft gouda havarti
+2025-06-20 17:38:31,017 - INFO - Found 1 images for 'semi soft gouda havarti'
+2025-06-20 17:38:31,159 - INFO - ✅ Processed: cheese_2025-06-20_003.jpg with tags ['semi-soft']
+2025-06-20 17:38:33,166 - INFO - ====== WebDriver manager ======
+2025-06-20 17:38:33,461 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:33,562 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:33,655 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:38:33,662 - WARNING - WebDriver attempt 1 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:38:38,668 - INFO - ====== WebDriver manager ======
+2025-06-20 17:38:38,922 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:39,019 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:39,122 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:38:39,128 - WARNING - WebDriver attempt 2 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:38:44,134 - INFO - ====== WebDriver manager ======
+2025-06-20 17:38:44,406 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:44,490 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:38:44,602 - INFO - Driver [/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-06-20 17:38:44,608 - WARNING - WebDriver attempt 3 failed: [Errno 8] Exec format error: '/Users/jenlooper/.wdm/drivers/chromedriver/mac64/137.0.7151.119/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-06-20 17:38:45,739 - INFO - 🔍 Searching: washed rind orange sticky cheese
+2025-06-20 17:38:53,162 - INFO - Found 1 images for 'washed rind orange sticky cheese'
+2025-06-20 17:38:53,304 - INFO - ✅ Processed: cheese_2025-06-20_004.jpg with tags ['bloomy', 'washed-rind']
+2025-06-20 17:38:55,312 - INFO - 📦 Created MCP batch upload: /Users/jenlooper/Documents/projects/cheesy-mcp/cheese_agent_output/mcp_upload_batch_2025-06-20.json
+2025-06-20 17:38:55,313 - INFO - 🎯 Daily mission complete!
+2025-06-20 17:38:55,313 - INFO -    Images processed: 4
+2025-06-20 17:38:55,313 - INFO -    Ready for MCP upload: 4
+2025-06-20 17:38:55,313 - INFO -    Total images to date: 11
+2025-06-20 17:38:55,314 - INFO - 🧹 Cleaning up 4 downloaded images...
+2025-06-20 17:38:55,315 - INFO - ✅ Image cleanup completed
